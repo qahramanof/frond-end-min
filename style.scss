@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.generalsection {
+
+    header {
+
+        background-color: rgb(42, 2, 2);
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+
+            .logolar {
+                display: flex;
+
+                img {
+                    width: 47px;
+                    height: 73px;
+                    padding-top: 12px;
+                }
+
+
+                p {
+                    padding: 15px;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-size: 20px;
+                    color: bisque;
+                    width: 168px;
+                    padding-top: 31px;
+
+                }
+            }
+
+            .menu {
+
+
+                ul {
+                    display: flex;
+                    align-items: center;
+
+                    li {
+                        padding: 20px;
+
+                        .button1 {
+                            width: 128px;
+                            height: 44px;
+                            background: #FF3839;
+                            border-radius: 5px;
+                            font-family: 'Poppins';
+                            font-style: normal;
+                            font-size: 16px;
+                            color: aqua;
+                        }
+
+                        a {
+                            text-decoration: none;
+                            font-size: 20px;
+                            color: azure;
+                        }
+
+                    }
+                }
+            }
+
+
+        }
+
+    }
+
+    .page1 {
+        background-image: url(img/graphic-designers-meeting@2x.jpg);
+        background-size: cover;
+        height: 100vh;
+
+        .general {
+            flex-direction: column;
+
+            .container {
+                max-width: 1100px;
+                margin: auto;
+
+                .backphoto {
+
+                    padding: 7.812rem 0;
+                    padding-bottom: 60px;
+
+                    .photo1 {
+                        font-family: 'Poppins' sans-serif;
+                        font-style: normal;
+                        font-size: 26px;
+                        text-align: center;
+                        text-transform: capitalize;
+
+                        span {
+                            color: red;
+                        }
+
+
+                    }
+
+                    .photo2 {
+                        font-family: 'Poppins' sans-serif;
+                        font-style: normal;
+                        font-size: 70px;
+                        text-align: center;
+                        margin-top: 30px;
+                    }
+
+                    .photo3 {
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-size: 16px;
+                        line-height: 24px;
+                        text-align: center;
+                        margin-top: 30px;
+                    }
+
+                }
+
+                .butons {
+                    display: flex;
+                    justify-content: center;
+                    gap: 30px;
+
+
+                    .buton1 {
+                        background: #FF3839;
+                        border-radius: 5px;
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-size: 16px;
+                        width: 181px;
+                        height: 48px;
+
+
+                    }
+
+                    .buton2 {
+                        background: #FFFFFF;
+                        border-radius: 5px;
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-size: 16px;
+                        width: 181px;
+                        height: 48px;
+
+                    }
+                }
+            }
+        }
+
+    }
+
+    .page2 {
+        height: 100vh;
+
+        .containerthue {
+            max-width: 1200px;
+            margin: auto;
+            padding-top: 120px;
+
+            .form1 {
+                .page {
+                    position: relative;
+
+                    .img1 {
+
+                        position: absolute;
+                        z-index: 1;
+                    }
+
+                    .img2 {
+                        position: absolute;
+                        z-index: 2;
+                        padding: 195px;
+
+
+                    }
+                }
+            }
+
+            .aboutword {
+                float: right;
+                text-align: justify;
+                padding-right: 90px;
+
+
+                .firstword {
+                    display: flex;
+
+                    p {
+                        font-family: 'Poppins' sans-serif;
+                        font-style: normal;
+                        font-size: 30px;
+                        margin-bottom: 30px;
+
+
+
+
+
+
+                    }
+
+                    span {
+                        color: #FF3839;
+                    }
+                }
+
+                .word1 {
+
+                    p {
+                        font-style: normal;
+                        font-size: 50px;
+                        margin-top: 25px;
+                        color: black;
+                        margin-bottom: 40px;
+
+
+
+
+                        span {
+                            color: #e21a1a;
+                        }
+                    }
+                }
+
+                .word2 {
+                    font-family: 'Poppins' sans-serif;
+                    font-style: normal;
+                    font-size: 15px;
+                    width: 55vh;
+                    padding-bottom: 60px;
+
+
+                }
+
+                .endbottom {
+                    width: 181px;
+                    height: 48px;
+                    background: #FF3839;
+                    border-radius: 5px;
+
+
+                }
+
+            }
+
+        }
+    }
+
+    .page3 {
+        background-color:
+            #202020;
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+
+
+
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+
+            .people {
+                display: flex;
+                justify-content: space-around;
+
+
+                .words {
+                    .word1 {
+                        font-family: 'Poppins', sans-serif;
+                        font-style: normal;
+                        font-size: 26px;
+                        text-align: justify;
+                        color: #FFFFFF;
+
+                        span {
+                            color: red;
+                        }
+
+                    }
+
+                    .word2 {
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-size: 48px;
+                        font-weight: bold;
+                        padding-bottom: 40px;
+
+
+                        span {
+                            color: red;
+                        }
+                    }
+
+                    .word3 {
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-size: 16px;
+                        text-align: justify;
+                        color: #FFFFFF;
+                        width: 420px;
+
+
+                    }
+
+                    .buton5 {
+                        width: 180px;
+                        height: 50px;
+                        border-radius: 10px;
+                        margin-top: 50px;
+
+                    }
+                }
+
+
+
+                .information {
+                    width: 550px;
+                    height: 550px;
+                    margin-top: 70px;
+
+
+                    .info1 {
+
+
+                        .title {
+                            display: flex;
+
+                            .infoui {
+                                width: 263px;
+                                height: 168px;
+                                background-color: #FFFFFF;
+                                margin-right: 20px;
+                                margin-bottom: 20px;
+                                border-radius: 5px;
+                                text-align: center;
+                                padding: 40px;
+                                position: relative;
+
+                                h4 {
+                                    font-family: 'Poppins', sans-serif;
+                                }
+
+                                .uxlogo {
+                                    width: 70px;
+                                    height: 70px;
+                                    border-radius: 50%;
+                                    background-color: #FF3839;
+                                    position: absolute;
+                                    margin-left: 59px;
+                                    margin-top: -153px;
+                                    padding: 10px;
+                                }
+                            }
+
+                            .infodeveloment {
+                                width: 263px;
+                                height: 168px;
+                                background-color: #FFFFFF;
+                                border-radius: 5px;
+                                text-align: center;
+                                padding: 40px;
+
+                                h4 {
+                                    font-family: 'Poppins', sans-serif;
+                                }
+
+                                .develomentlogo {
+                                    width: 70px;
+                                    height: 70px;
+                                    border-radius: 50%;
+                                    background-color: #FF3839;
+                                    position: absolute;
+                                    margin-left: 59px;
+                                    margin-top: -153px;
+                                    padding: 10px;
+                                }
+
+                            }
+                        }
+
+                        .title2 {
+                            display: flex;
+
+
+                            .infomobile {
+                                width: 263px;
+                                height: 168px;
+                                background-color: #FFFFFF;
+                                margin-right: 20px;
+                                margin-top: 40px;
+                                border-radius: 5px;
+                                text-align: center;
+                                padding: 40px;
+
+                                h4 {
+                                    font-family: 'Poppins', sans-serif;
+                                }
+
+                                .mobillogo {
+                                    width: 70px;
+                                    height: 70px;
+                                    border-radius: 50%;
+                                    background-color: #FF3839;
+                                    position: absolute;
+                                    margin-left: 59px;
+                                    margin-top: -153px;
+                                    padding: 10px;
+                                }
+
+
+                            }
+
+                            .infoseo {
+                                width: 263px;
+                                height: 168px;
+                                background-color: #FFFFFF;
+                                margin-top: 40px;
+                                padding: 40px;
+                                border-radius: 5px;
+                                text-align: center;
+
+                                h4 {
+                                    font-family: 'Poppins', sans-serif;
+                                }
+
+                                .seoologo {
+                                    width: 70px;
+                                    height: 70px;
+                                    border-radius: 50%;
+                                    background-color: #FF3839;
+                                    position: absolute;
+                                    margin-left: 59px;
+                                    margin-top: -153px;
+                                    padding: 10px;
+                                }
+
+                            }
+
+                        }
+                    }
+                }
+            }
+
+        }
+
+
+    }
+
+    .page4 {
+        padding-top: 150px;
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+
+            .general {
+                text-align: center;
+                .title {
+                    p {
+                        color: #696969;
+                        font-size: 20px;
+                    }
+
+                    h1 {
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-size: 48px;
+                        color: black;
+                        padding: 0 300px 0 300px;
+                        span {
+                            color: #FF3839;
+                        }
+
+                    }
+                }
+
+                .navbar {
+                    ul {
+                       display: flex;
+                      justify-content: center;
+                      gap: 40px;
+                        // li {
+                            // .active{
+                            //     background: #FF3839 !important;
+
+                            // }
+                            .item{
+                                background: #F2F2F2;                                min-width: 73px;
+                                height: 44px;
+                                border-radius: 5px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                padding: 25px;
+                                
+                            }
+                            a {
+                                text-decoration: none;
+                                color: #202020;
+                               
+                            }
+                            .item:hover{
+                                background: #FF3839;
+
+                            }
+
+                        // }
+                    }
+                }
+            }
+        }
+    }
+}

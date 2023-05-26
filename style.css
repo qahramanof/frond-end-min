@@ -1,0 +1,484 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.generalsection header {
+  background-color: #2a0202;
+}
+
+.generalsection header .container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.generalsection header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.generalsection header nav .logolar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.generalsection header nav .logolar img {
+  width: 47px;
+  height: 73px;
+  padding-top: 12px;
+}
+
+.generalsection header nav .logolar p {
+  padding: 15px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 20px;
+  color: bisque;
+  width: 168px;
+  padding-top: 31px;
+}
+
+.generalsection header nav .menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.generalsection header nav .menu ul li {
+  padding: 20px;
+}
+
+.generalsection header nav .menu ul li .button1 {
+  width: 128px;
+  height: 44px;
+  background: #FF3839;
+  border-radius: 5px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 16px;
+  color: aqua;
+}
+
+.generalsection header nav .menu ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: azure;
+}
+
+.generalsection .page1 {
+  background-image: url(img/graphic-designers-meeting@2x.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.generalsection .page1 .general {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.generalsection .page1 .general .container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.generalsection .page1 .general .container .backphoto {
+  padding: 7.812rem 0;
+  padding-bottom: 60px;
+}
+
+.generalsection .page1 .general .container .backphoto .photo1 {
+  font-family: 'Poppins' sans-serif;
+  font-style: normal;
+  font-size: 26px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.generalsection .page1 .general .container .backphoto .photo1 span {
+  color: red;
+}
+
+.generalsection .page1 .general .container .backphoto .photo2 {
+  font-family: 'Poppins' sans-serif;
+  font-style: normal;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.generalsection .page1 .general .container .backphoto .photo3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.generalsection .page1 .general .container .butons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+}
+
+.generalsection .page1 .general .container .butons .buton1 {
+  background: #FF3839;
+  border-radius: 5px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 16px;
+  width: 181px;
+  height: 48px;
+}
+
+.generalsection .page1 .general .container .butons .buton2 {
+  background: #FFFFFF;
+  border-radius: 5px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 16px;
+  width: 181px;
+  height: 48px;
+}
+
+.generalsection .page2 {
+  height: 100vh;
+}
+
+.generalsection .page2 .containerthue {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 120px;
+}
+
+.generalsection .page2 .containerthue .form1 .page {
+  position: relative;
+}
+
+.generalsection .page2 .containerthue .form1 .page .img1 {
+  position: absolute;
+  z-index: 1;
+}
+
+.generalsection .page2 .containerthue .form1 .page .img2 {
+  position: absolute;
+  z-index: 2;
+  padding: 195px;
+}
+
+.generalsection .page2 .containerthue .aboutword {
+  float: right;
+  text-align: justify;
+  padding-right: 90px;
+}
+
+.generalsection .page2 .containerthue .aboutword .firstword {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.generalsection .page2 .containerthue .aboutword .firstword p {
+  font-family: 'Poppins' sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.generalsection .page2 .containerthue .aboutword .firstword span {
+  color: #FF3839;
+}
+
+.generalsection .page2 .containerthue .aboutword .word1 p {
+  font-style: normal;
+  font-size: 50px;
+  margin-top: 25px;
+  color: black;
+  margin-bottom: 40px;
+}
+
+.generalsection .page2 .containerthue .aboutword .word1 p span {
+  color: #e21a1a;
+}
+
+.generalsection .page2 .containerthue .aboutword .word2 {
+  font-family: 'Poppins' sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  width: 55vh;
+  padding-bottom: 60px;
+}
+
+.generalsection .page2 .containerthue .aboutword .endbottom {
+  width: 181px;
+  height: 48px;
+  background: #FF3839;
+  border-radius: 5px;
+}
+
+.generalsection .page3 {
+  background-color: #202020;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.generalsection .page3 .container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.generalsection .page3 .container .people {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.generalsection .page3 .container .people .words .word1 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 26px;
+  text-align: justify;
+  color: #FFFFFF;
+}
+
+.generalsection .page3 .container .people .words .word1 span {
+  color: red;
+}
+
+.generalsection .page3 .container .people .words .word2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 48px;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+
+.generalsection .page3 .container .people .words .word2 span {
+  color: red;
+}
+
+.generalsection .page3 .container .people .words .word3 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 16px;
+  text-align: justify;
+  color: #FFFFFF;
+  width: 420px;
+}
+
+.generalsection .page3 .container .people .words .buton5 {
+  width: 180px;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.generalsection .page3 .container .people .information {
+  width: 550px;
+  height: 550px;
+  margin-top: 70px;
+}
+
+.generalsection .page3 .container .people .information .info1 .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.generalsection .page3 .container .people .information .info1 .title .infoui {
+  width: 263px;
+  height: 168px;
+  background-color: #FFFFFF;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 40px;
+  position: relative;
+}
+
+.generalsection .page3 .container .people .information .info1 .title .infoui h4 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.generalsection .page3 .container .people .information .info1 .title .infoui .uxlogo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #FF3839;
+  position: absolute;
+  margin-left: 59px;
+  margin-top: -153px;
+  padding: 10px;
+}
+
+.generalsection .page3 .container .people .information .info1 .title .infodeveloment {
+  width: 263px;
+  height: 168px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  text-align: center;
+  padding: 40px;
+}
+
+.generalsection .page3 .container .people .information .info1 .title .infodeveloment h4 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.generalsection .page3 .container .people .information .info1 .title .infodeveloment .develomentlogo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #FF3839;
+  position: absolute;
+  margin-left: 59px;
+  margin-top: -153px;
+  padding: 10px;
+}
+
+.generalsection .page3 .container .people .information .info1 .title2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.generalsection .page3 .container .people .information .info1 .title2 .infomobile {
+  width: 263px;
+  height: 168px;
+  background-color: #FFFFFF;
+  margin-right: 20px;
+  margin-top: 40px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 40px;
+}
+
+.generalsection .page3 .container .people .information .info1 .title2 .infomobile h4 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.generalsection .page3 .container .people .information .info1 .title2 .infomobile .mobillogo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #FF3839;
+  position: absolute;
+  margin-left: 59px;
+  margin-top: -153px;
+  padding: 10px;
+}
+
+.generalsection .page3 .container .people .information .info1 .title2 .infoseo {
+  width: 263px;
+  height: 168px;
+  background-color: #FFFFFF;
+  margin-top: 40px;
+  padding: 40px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.generalsection .page3 .container .people .information .info1 .title2 .infoseo h4 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.generalsection .page3 .container .people .information .info1 .title2 .infoseo .seoologo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #FF3839;
+  position: absolute;
+  margin-left: 59px;
+  margin-top: -153px;
+  padding: 10px;
+}
+
+.generalsection .page4 {
+  padding-top: 150px;
+}
+
+.generalsection .page4 .container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.generalsection .page4 .container .general {
+  text-align: center;
+}
+
+.generalsection .page4 .container .general .title p {
+  color: #696969;
+  font-size: 20px;
+}
+
+.generalsection .page4 .container .general .title h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 48px;
+  color: black;
+  padding: 0 300px 0 300px;
+}
+
+.generalsection .page4 .container .general .title h1 span {
+  color: #FF3839;
+}
+
+.generalsection .page4 .container .general .navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 40px;
+}
+
+.generalsection .page4 .container .general .navbar ul .item {
+  background: #F2F2F2;
+  min-width: 73px;
+  height: 44px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 25px;
+}
+
+.generalsection .page4 .container .general .navbar ul a {
+  text-decoration: none;
+  color: #202020;
+}
+
+.generalsection .page4 .container .general .navbar ul .item:hover {
+  background: #FF3839;
+}
+/*# sourceMappingURL=style.css.map */
