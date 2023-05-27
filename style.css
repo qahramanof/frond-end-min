@@ -3,6 +3,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -456,8 +460,8 @@
   gap: 40px;
 }
 
-.generalsection .page4 .container .general .navbar ul .item {
-  background: #F2F2F2;
+.generalsection .page4 .container .general .navbar ul li .item {
+  background: #db6a6a;
   min-width: 73px;
   height: 44px;
   border-radius: 5px;
@@ -473,12 +477,301 @@
   padding: 25px;
 }
 
-.generalsection .page4 .container .general .navbar ul a {
+.generalsection .page4 .container .general .navbar ul li a {
   text-decoration: none;
+  color: #202020;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.generalsection .page4 .container .general .navbar ul li a:hover {
+  background: #FF3839;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.generalsection .page4 .container .portre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 100px;
+}
+
+.generalsection .page4 .container .portre .portre1 {
+  width: 374px;
+  height: 439px;
+}
+
+.generalsection .page4 .container .portre .portre2 {
+  width: 374px;
+  height: 513px;
+}
+
+.generalsection .page4 .container .portre .portre3 {
+  width: 374px;
+  height: 439px;
+}
+
+.generalsection .page5 {
+  padding-top: 100px;
+  padding-bottom: 200px;
+  background-color: #202020;
+}
+
+.generalsection .page5 .container {
+  width: 1200px;
+  margin: auto;
+}
+
+.generalsection .page5 .container .general .alldiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.generalsection .page5 .container .general .alldiv .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.generalsection .page5 .container .general .alldiv .title .solid {
+  width: 134px;
+  height: 1px;
+  background-color: #d8d8d8;
+  margin-top: 11px;
+}
+
+.generalsection .page5 .container .general .alldiv .title p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+.generalsection .page5 .container .general .alldiv .title p span {
+  color: #FF3839;
+}
+
+.generalsection .page5 .container .general .alldiv .title2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.generalsection .page5 .container .general .alldiv .title2 .solid2 {
+  width: 134px;
+  height: 1px;
+  margin-top: 8px;
+  background-color: #D9D9D9;
+}
+
+.generalsection .page5 .container .general .alldiv .title2 .cirle1 {
+  width: 16px;
+  height: 16px;
+  background-color: #D9D9D9;
+  border-radius: 50%;
+}
+
+.generalsection .page5 .container .general .alldiv .title2 .cirle2 {
+  width: 16px;
+  height: 16px;
+  background-color: #D9D9D9;
+  border-radius: 50%;
+}
+
+.generalsection .page5 .container .general .alldiv .title2 .cirle3 {
+  width: 16px;
+  height: 16px;
+  background-color: #D9D9D9;
+  border-radius: 50%;
+}
+
+.generalsection .page5 .container .general .alldiv .title2 .cirle4 {
+  width: 16px;
+  height: 16px;
+  background-color: #D9D9D9;
+  border-radius: 50%;
+}
+
+.generalsection .page5 .container .general .alldiv .title2 .cirle5 {
+  width: 16px;
+  height: 16px;
+  background-color: #D9D9D9;
+  border-radius: 50%;
+}
+
+.generalsection .page5 .container .general h2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 38px;
+  width: 400px;
+  color: #FFFFFF;
+}
+
+.generalsection .page5 .container .general h2 span {
+  color: #FF3839;
+}
+
+.generalsection .page5 .container .allcard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.generalsection .page5 .container .allcard .card1 {
+  margin-top: 60px;
+  width: 343px;
+  height: 200px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  position: relative;
+}
+
+.generalsection .page5 .container .allcard .card1 p {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  padding-top: 40px;
+}
+
+.generalsection .page5 .container .allcard .card1 img {
+  padding-left: 93px;
+  padding-top: 10px;
+}
+
+.generalsection .page5 .container .allcard .card1 .lorem {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 11px;
+}
+
+.generalsection .page5 .container .allcard .card1 .logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #FF3839;
+  position: absolute;
+  padding: 10px;
+  margin-left: 140px;
+  margin-top: -230px;
+}
+
+.generalsection .page5 .container .allcard .card1 .logo img {
+  padding-left: 15px;
+  margin-top: 6px;
+}
+
+.generalsection .page6 {
+  padding-top: 100px;
+}
+
+.generalsection .page6 .container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.generalsection .page6 .container .general .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+
+.generalsection .page6 .container .general .title .solid1 {
+  width: 160px;
+  height: 2px;
+  background-color: #696969;
+  margin-top: 11px;
+}
+
+.generalsection .page6 .container .general .title p {
+  color: #696969;
+}
+
+.generalsection .page6 .container .general .title .solid2 {
+  width: 160px;
+  height: 2px;
+  background-color: #696969;
+  margin-top: 11px;
+}
+
+.generalsection .page6 .container .general .centerword {
+  text-align: center;
+}
+
+.generalsection .page6 .container .general .centerword p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 68px;
   color: #202020;
 }
 
-.generalsection .page4 .container .general .navbar ul .item:hover {
-  background: #FF3839;
+.generalsection .page6 .container .general .centerword .Questions {
+  color: #FF3839;
+  text-align: center;
+}
+
+.generalsection .page6 .container .general .combobox {
+  position: relative;
+}
+
+.generalsection .page6 .container .general .combobox .box1 {
+  background: #202020;
+  border-radius: 5px;
+  height: 84px;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.generalsection .page6 .container .general .combobox .box1 p {
+  color: #FFFFFF;
+}
+
+.generalsection .page6 .container .general .combobox .box1 i {
+  position: absolute;
+  right: 20px;
+  color: #FFFFFF;
+  top: 35px;
+}
+
+.generalsection .page6 .container .general .combobox .lorem3 {
+  color: #696969;
+}
+
+.generalsection .page6 .container .general .combobox .box2 {
+  background: #F1F1F1;
+  border-radius: 5px;
+  height: 84px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.generalsection .page6 .container .general .combobox .box2 P {
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.generalsection .page6 .container .general .combobox .box2 i {
+  position: absolute;
+  right: 20px;
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */

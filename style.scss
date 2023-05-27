@@ -3,6 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@500&display=swap');
+
 
 * {
     margin: 0;
@@ -474,6 +479,7 @@
 
             .general {
                 text-align: center;
+
                 .title {
                     p {
                         color: #696969;
@@ -486,6 +492,7 @@
                         font-size: 48px;
                         color: black;
                         padding: 0 300px 0 300px;
+
                         span {
                             color: #FF3839;
                         }
@@ -495,37 +502,361 @@
 
                 .navbar {
                     ul {
-                       display: flex;
-                      justify-content: center;
-                      gap: 40px;
-                        // li {
+                        display: flex;
+                        justify-content: center;
+                        gap: 40px;
+
+                        li {
                             // .active{
                             //     background: #FF3839 !important;
 
                             // }
-                            .item{
-                                background: #F2F2F2;                                min-width: 73px;
+                            .item {
+                                background: #db6a6a;
+                                min-width: 73px;
                                 height: 44px;
                                 border-radius: 5px;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
                                 padding: 25px;
-                                
+
                             }
+
                             a {
                                 text-decoration: none;
                                 color: #202020;
-                               
+                                transition: 0.2s;
+
                             }
-                            .item:hover{
+
+                            a:hover {
                                 background: #FF3839;
+                                padding: 10px;
+                                border-radius: 10px;
 
                             }
 
-                        // }
+                        }
                     }
                 }
+            }
+
+            .portre {
+                display: flex;
+                justify-content: center;
+                justify-content: space-between;
+                padding-top: 100px;
+
+                .portre1 {
+                    width: 374px;
+                    height: 439px;
+
+
+                }
+
+                .portre2 {
+                    width: 374px;
+                    height: 513px;
+
+
+
+                }
+
+                .portre3 {
+                    width: 374px;
+                    height: 439px;
+
+                }
+            }
+
+        }
+    }
+
+
+    .page5 {
+        padding-top: 100px;
+        padding-bottom: 200px;
+        background-color: #202020;
+
+        .container {
+            width: 1200px;
+            margin: auto;
+
+            .general {
+
+                .alldiv {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .title {
+                        display: flex;
+
+
+                        .solid {
+                            width: 134px;
+                            height: 1px;
+                            background-color: #d8d8d8;
+                            margin-top: 11px;
+                        }
+
+                        p {
+                            font-family: 'Poppins', sans-serif;
+                            font-style: normal;
+                            font-size: 16px;
+                            margin-left: 15px;
+
+
+                            span {
+
+                                color: #FF3839;
+                            }
+                        }
+
+
+
+                    }
+
+                    .title2 {
+                        display: flex;
+
+
+                        .solid2 {
+                            width: 134px;
+                            height: 1px;
+                            margin-top: 8px;
+                            background-color: #D9D9D9;
+                        }
+
+                        .cirle1 {
+                            width: 16px;
+                            height: 16px;
+                            background-color: #D9D9D9;
+                            border-radius: 50%;
+                        }
+
+                        .cirle2 {
+                            width: 16px;
+                            height: 16px;
+                            background-color: #D9D9D9;
+                            border-radius: 50%;
+                        }
+
+                        .cirle3 {
+                            width: 16px;
+                            height: 16px;
+                            background-color: #D9D9D9;
+                            border-radius: 50%;
+                        }
+
+                        .cirle4 {
+                            width: 16px;
+                            height: 16px;
+                            background-color: #D9D9D9;
+                            border-radius: 50%;
+
+                        }
+
+                        .cirle5 {
+                            width: 16px;
+                            height: 16px;
+                            background-color: #D9D9D9;
+                            border-radius: 50%;
+                        }
+                    }
+
+
+                }
+
+                h2 {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-size: 38px;
+                    width: 400px;
+                    color: #FFFFFF;
+
+
+                    span {
+                        color: #FF3839;
+                    }
+                }
+            }
+
+            .allcard {
+                display: flex;
+                justify-content: space-between;
+
+                .card1 {
+                    margin-top: 60px;
+                    width: 343px;
+                    height: 200px;
+                    background-color: #FFFFFF;
+                    border-radius: 5px;
+                    position: relative;
+
+
+                    p {
+                        text-align: center;
+                        font-family: 'Poppins', sans-serif;
+                        font-style: normal;
+                        font-size: 20px;
+                        padding-top: 40px;
+
+                    }
+
+                    img {
+                        padding-left: 93px;
+                        padding-top: 10px;
+                    }
+
+                    .lorem {
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-size: 11px;
+
+                    }
+
+                    .logo {
+                        width: 70px;
+                        height: 70px;
+                        border-radius: 50%;
+                        background-color: #FF3839;
+                        position: absolute;
+                        padding: 10px;
+                        margin-left: 140px;
+                        margin-top: -230px;
+
+
+                        img {
+                            padding-left: 15px;
+                            margin-top: 6px;
+
+
+                        }
+                    }
+
+                }
+
+            }
+        }
+    }
+
+    .page6 {
+        padding-top: 100px;
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+
+            .general {
+
+
+                .title {
+                    display: flex;
+                    justify-content: center;
+                    gap: 10px;
+
+                    .solid1 {
+                        width: 160px;
+                        height: 2px;
+                        background-color: #696969;
+                        margin-top: 11px;
+                    }
+
+                    p {
+                        color: #696969;
+                    }
+
+                    .solid2 {
+                        width: 160px;
+                        height: 2px;
+                        background-color: #696969;
+                        margin-top: 11px;
+                    }
+
+
+                }
+
+                .centerword {
+                    text-align: center;
+
+                    p {
+                        font-family: 'Poppins', sans-serif;
+                        font-style: normal;
+                        font-size: 68px;
+                        color: #202020;
+
+
+                    }
+
+                    .Questions {
+                        color: #FF3839;
+                        text-align: center;
+
+                    }
+                }
+
+                .combobox {
+                    position: relative;
+
+
+
+                    .box1 {
+
+                        background: #202020;
+                        border-radius: 5px;
+                        height: 84px;
+                        margin-bottom: 30px;
+                        padding-top: 30px;
+                        padding-left: 20px;
+
+
+
+                        p {
+                            color: #FFFFFF;
+                        }
+
+                        i {
+                            position: absolute;
+                            right: 20px;
+                            color: #FFFFFF;
+                            top: 35px;
+
+
+                        }
+
+
+                    }
+
+                    .lorem3 {
+                        color: #696969;
+
+                    }
+
+                    .box2 {
+                        background: #F1F1F1;
+                        border-radius: 5px;
+                        height: 84px;
+                        color: black;
+                        margin-bottom: 30px;
+
+
+                        P {
+                            padding-top: 30px;
+                            padding-left: 20px;
+                        }
+
+                        i {
+                            position: absolute;
+                            right: 20px;
+                            color: black;
+
+                        }
+
+                    }
+
+                }
+
             }
         }
     }
