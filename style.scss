@@ -7,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 
 * {
@@ -743,6 +744,7 @@
 
     .page6 {
         padding-top: 100px;
+        padding-bottom: 100px;
 
         .container {
             max-width: 1200px;
@@ -810,6 +812,7 @@
                         margin-bottom: 30px;
                         padding-top: 30px;
                         padding-left: 20px;
+                        display: flex;
 
 
 
@@ -821,6 +824,7 @@
                             position: absolute;
                             right: 20px;
                             color: #FFFFFF;
+
 
 
 
@@ -840,6 +844,7 @@
                         height: 84px;
                         color: black;
                         margin-bottom: 30px;
+                        display: flex;
 
 
 
@@ -853,11 +858,422 @@
                             position: absolute;
                             right: 20px;
                             color: black;
+                            margin-top: 35px;
 
                         }
 
                     }
 
+                }
+
+            }
+        }
+    }
+
+    .page7 {
+        background-color: #F1F1F1;
+
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+
+            .general {
+
+                display: flex;
+
+                .contact {
+
+
+                    padding-top: 100px;
+
+
+                    .title {
+                        display: flex;
+
+                        .solid4 {
+                            width: 143px;
+                            height: 1px;
+                            margin-top: 10px;
+                            background-color: #d8d8d8;
+                        }
+
+                        .word {
+                            font-family: 'Poppins';
+                            font-style: normal;
+                            color: #FF3839;
+
+                        }
+                    }
+
+                    .contactword {
+                        width: 540px;
+
+                        p {
+                            font-family: 'Poppins';
+                            font-style: normal;
+                            font-size: 48px;
+
+                            span {
+
+                                color: #FF3839;
+                            }
+                        }
+
+                        .lorem {
+                            color: #696969;
+                            text-align: justify;
+                            font-family: 'Poppins';
+                            font-style: normal;
+                            font-size: 18px;
+                            margin-bottom: 20px;
+                        }
+
+                    }
+
+                    .allinput {
+
+
+                        .nameinput {
+
+                            input {
+                                width: 533px;
+                                height: 60px;
+                                border-radius: 5px;
+                                margin-bottom: 20px;
+                                padding-left: 20px;
+                                border-color: #CACACA;
+                                background-color: #FFFFFF;
+
+
+                            }
+
+                            input::placeholder {
+                                font-family: 'Poppins', sans-serif;
+                                color: black;
+                            }
+
+                        }
+
+                        .surnameinput {
+
+                            input {
+                                width: 533px;
+                                height: 60px;
+                                border-radius: 5px;
+                                margin-bottom: 20px;
+                                padding-left: 20px;
+                                border-color: #CACACA;
+                                background-color: #FFFFFF;
+
+                            }
+
+                            input::placeholder {
+                                font-family: 'Poppins', sans-serif;
+                                color: black;
+                            }
+
+                        }
+
+                        .messageinput {
+                            textarea {
+                                width: 533px;
+                                height: 149px;
+                                border-radius: 5px;
+                                background-color: #FFFFFF;
+                            }
+
+                            textarea::placeholder {
+                                padding-top: 20px;
+                                padding-left: 20px;
+                                font-family: 'Poppins', sans-serif;
+
+                                border-color: #CACACA;
+                                color: black;
+                            }
+                        }
+
+                        .bottomclick {
+
+                            button {
+
+                                width: 180px;
+                                height: 48px;
+                                border-radius: 5px;
+                                border: none;
+                                margin-top: 40px;
+                                background-color: #FF3839;
+                                color: #FFFFFF;
+                            }
+                        }
+
+
+
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    #footer {
+        background: #202020;
+        padding-top: 100px;
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+
+            .solidhr {
+
+
+
+                .general {
+
+                    display: flex;
+                    justify-content: space-between;
+
+
+                    .caanver {
+
+
+                        width: 30%;
+
+                        .canver-title {
+                            display: flex;
+
+                            p {
+                                color: #FFFFFF;
+                                font-size: 20px;
+                                padding-top: 15px;
+                            }
+                        }
+
+                        .lorem-word {
+
+                            p {
+                                width: 50%;
+                                margin-top: 30px;
+                                text-align: justify;
+                                font-size: 13px;
+                                color: #F8F8F8;
+                            }
+                        }
+
+                        .allicon {
+                            display: flex;
+                            gap: 10px;
+                            padding-top: 20px;
+
+                            .facebookicon {
+                                width: 36px;
+                                height: 36px;
+                                border-radius: 50%;
+
+                                background-color: #FF3839;
+
+                                a {
+                                    text-decoration: none;
+                                    color: #FFFFFF;
+
+                                    i {
+                                        padding-left: 13px;
+                                        padding-top: 10px;
+                                    }
+
+                                }
+
+                            }
+
+                            .instagramicon {
+                                width: 36px;
+                                height: 36px;
+                                border-radius: 50%;
+                                background-color: #FF3839;
+
+
+                                a {
+                                    text-decoration: none;
+                                    color: #FFFFFF;
+
+
+                                    i {
+                                        padding-left: 10px;
+                                        padding-top: 10px;
+                                    }
+                                }
+
+
+                            }
+
+                            .twittericon {
+                                width: 36px;
+                                height: 36px;
+                                border-radius: 50%;
+                                background-color: #FF3839;
+
+                                a {
+                                    text-decoration: none;
+                                    color: #FFFFFF;
+
+                                    i {
+                                        padding-left: 10px;
+                                        padding-top: 10px;
+                                    }
+
+                                }
+
+                            }
+
+                            .linkedin {
+                                width: 36px;
+                                height: 36px;
+                                border-radius: 50%;
+                                background-color: #FF3839;
+
+                                a {
+                                    text-decoration: none;
+                                    color: #FFFFFF;
+
+                                    i {
+                                        padding-left: 10px;
+                                        padding-top: 10px;
+                                    }
+
+                                }
+
+                            }
+
+
+
+                        }
+                    }
+
+                    .alltitle {
+                        display: flex;
+                        width: 700px;
+                        justify-content: space-between;
+
+
+                        .titleone {
+
+                            .services-word {
+                                font-size: 20px;
+                                padding-bottom: 10px;
+                                color: #FFFFFF;
+
+                                li {
+                                    color: #FFFFFF;
+
+
+                                }
+
+                            }
+
+                            ul {
+                                li {
+                                    padding-bottom: 10px;
+                                    color: #FFFFFF;
+                                }
+                            }
+
+                        }
+
+                        .titletwo {
+
+                            .Resouces-word {
+                                font-size: 20px;
+                                padding-bottom: 10px;
+                                color: #FFFFFF;
+
+                                li {
+                                    color: #FFFFFF;
+                                }
+
+                            }
+
+                            ul {
+                                li {
+                                    padding-bottom: 10px;
+                                    color: #FFFFFF;
+                                }
+                            }
+
+                        }
+
+                        .titlethire {
+                            .Contact-Information {
+                                font-size: 20px;
+                                padding-bottom: 10px;
+                                color: #FFFFFF;
+                            }
+
+                            ul {
+
+                                li {
+                                    padding-bottom: 10px;
+                                    color: #FFFFFF;
+
+                                    i {
+                                        color: red;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+
+            }
+        }
+
+
+    }
+
+    .hr {
+        hr {
+            margin-top: 40px;
+        }
+    }
+
+    .endgeneral {
+        height: 50px;
+
+        .people {
+            margin-top: 40px;
+            margin-bottom: 50px;
+            background-color: #202020;
+
+            .container {
+                max-width: 1200px;
+                margin: auto;
+
+                .Copyright {
+                    display: flex;
+                    justify-content: space-between;
+
+
+
+                    .endsolit {
+
+
+                        p {
+                            color: #FFFFFF;
+                        }
+                    }
+
+                    .endword {
+                        width: 342px;
+                        display: flex;
+                        justify-content: space-between;
+
+                        a {
+
+                            color: #FFFFFF;
+                        }
+                    }
                 }
 
             }

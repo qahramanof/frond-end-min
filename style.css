@@ -7,6 +7,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -677,6 +678,7 @@
 
 .generalsection .page6 {
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .generalsection .page6 .container {
@@ -739,6 +741,9 @@
   margin-bottom: 30px;
   padding-top: 30px;
   padding-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .generalsection .page6 .container .general .combobox .box1 p {
@@ -761,6 +766,9 @@
   height: 84px;
   color: black;
   margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .generalsection .page6 .container .general .combobox .box2 P {
@@ -772,5 +780,396 @@
   position: absolute;
   right: 20px;
   color: black;
+  margin-top: 35px;
+}
+
+.generalsection .page7 {
+  background-color: #F1F1F1;
+}
+
+.generalsection .page7 .container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.generalsection .page7 .container .general {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.generalsection .page7 .container .general .contact {
+  padding-top: 100px;
+}
+
+.generalsection .page7 .container .general .contact .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.generalsection .page7 .container .general .contact .title .solid4 {
+  width: 143px;
+  height: 1px;
+  margin-top: 10px;
+  background-color: #d8d8d8;
+}
+
+.generalsection .page7 .container .general .contact .title .word {
+  font-family: 'Poppins';
+  font-style: normal;
+  color: #FF3839;
+}
+
+.generalsection .page7 .container .general .contact .contactword {
+  width: 540px;
+}
+
+.generalsection .page7 .container .general .contact .contactword p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 48px;
+}
+
+.generalsection .page7 .container .general .contact .contactword p span {
+  color: #FF3839;
+}
+
+.generalsection .page7 .container .general .contact .contactword .lorem {
+  color: #696969;
+  text-align: justify;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.generalsection .page7 .container .general .contact .allinput .nameinput input {
+  width: 533px;
+  height: 60px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border-color: #CACACA;
+  background-color: #FFFFFF;
+}
+
+.generalsection .page7 .container .general .contact .allinput .nameinput input::-webkit-input-placeholder {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+.generalsection .page7 .container .general .contact .allinput .nameinput input:-ms-input-placeholder {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+.generalsection .page7 .container .general .contact .allinput .nameinput input::-ms-input-placeholder {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+.generalsection .page7 .container .general .contact .allinput .nameinput input::placeholder {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+.generalsection .page7 .container .general .contact .allinput .surnameinput input {
+  width: 533px;
+  height: 60px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border-color: #CACACA;
+  background-color: #FFFFFF;
+}
+
+.generalsection .page7 .container .general .contact .allinput .surnameinput input::-webkit-input-placeholder {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+.generalsection .page7 .container .general .contact .allinput .surnameinput input:-ms-input-placeholder {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+.generalsection .page7 .container .general .contact .allinput .surnameinput input::-ms-input-placeholder {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+.generalsection .page7 .container .general .contact .allinput .surnameinput input::placeholder {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+.generalsection .page7 .container .general .contact .allinput .messageinput textarea {
+  width: 533px;
+  height: 149px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}
+
+.generalsection .page7 .container .general .contact .allinput .messageinput textarea::-webkit-input-placeholder {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-family: 'Poppins', sans-serif;
+  border-color: #CACACA;
+  color: black;
+}
+
+.generalsection .page7 .container .general .contact .allinput .messageinput textarea:-ms-input-placeholder {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-family: 'Poppins', sans-serif;
+  border-color: #CACACA;
+  color: black;
+}
+
+.generalsection .page7 .container .general .contact .allinput .messageinput textarea::-ms-input-placeholder {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-family: 'Poppins', sans-serif;
+  border-color: #CACACA;
+  color: black;
+}
+
+.generalsection .page7 .container .general .contact .allinput .messageinput textarea::placeholder {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-family: 'Poppins', sans-serif;
+  border-color: #CACACA;
+  color: black;
+}
+
+.generalsection .page7 .container .general .contact .allinput .bottomclick button {
+  width: 180px;
+  height: 48px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 40px;
+  background-color: #FF3839;
+  color: #FFFFFF;
+}
+
+.generalsection #footer {
+  background: #202020;
+  padding-top: 100px;
+}
+
+.generalsection #footer .container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.generalsection #footer .container .solidhr .general {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.generalsection #footer .container .solidhr .general .caanver {
+  width: 30%;
+}
+
+.generalsection #footer .container .solidhr .general .caanver .canver-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.generalsection #footer .container .solidhr .general .caanver .canver-title p {
+  color: #FFFFFF;
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.generalsection #footer .container .solidhr .general .caanver .lorem-word p {
+  width: 50%;
+  margin-top: 30px;
+  text-align: justify;
+  font-size: 13px;
+  color: #F8F8F8;
+}
+
+.generalsection #footer .container .solidhr .general .caanver .allicon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.generalsection #footer .container .solidhr .general .caanver .allicon .facebookicon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #FF3839;
+}
+
+.generalsection #footer .container .solidhr .general .caanver .allicon .facebookicon a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.generalsection #footer .container .solidhr .general .caanver .allicon .facebookicon a i {
+  padding-left: 13px;
+  padding-top: 10px;
+}
+
+.generalsection #footer .container .solidhr .general .caanver .allicon .instagramicon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #FF3839;
+}
+
+.generalsection #footer .container .solidhr .general .caanver .allicon .instagramicon a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.generalsection #footer .container .solidhr .general .caanver .allicon .instagramicon a i {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.generalsection #footer .container .solidhr .general .caanver .allicon .twittericon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #FF3839;
+}
+
+.generalsection #footer .container .solidhr .general .caanver .allicon .twittericon a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.generalsection #footer .container .solidhr .general .caanver .allicon .twittericon a i {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.generalsection #footer .container .solidhr .general .caanver .allicon .linkedin {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #FF3839;
+}
+
+.generalsection #footer .container .solidhr .general .caanver .allicon .linkedin a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.generalsection #footer .container .solidhr .general .caanver .allicon .linkedin a i {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.generalsection #footer .container .solidhr .general .alltitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 700px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.generalsection #footer .container .solidhr .general .alltitle .titleone .services-word {
+  font-size: 20px;
+  padding-bottom: 10px;
+  color: #FFFFFF;
+}
+
+.generalsection #footer .container .solidhr .general .alltitle .titleone .services-word li {
+  color: #FFFFFF;
+}
+
+.generalsection #footer .container .solidhr .general .alltitle .titleone ul li {
+  padding-bottom: 10px;
+  color: #FFFFFF;
+}
+
+.generalsection #footer .container .solidhr .general .alltitle .titletwo .Resouces-word {
+  font-size: 20px;
+  padding-bottom: 10px;
+  color: #FFFFFF;
+}
+
+.generalsection #footer .container .solidhr .general .alltitle .titletwo .Resouces-word li {
+  color: #FFFFFF;
+}
+
+.generalsection #footer .container .solidhr .general .alltitle .titletwo ul li {
+  padding-bottom: 10px;
+  color: #FFFFFF;
+}
+
+.generalsection #footer .container .solidhr .general .alltitle .titlethire .Contact-Information {
+  font-size: 20px;
+  padding-bottom: 10px;
+  color: #FFFFFF;
+}
+
+.generalsection #footer .container .solidhr .general .alltitle .titlethire ul li {
+  padding-bottom: 10px;
+  color: #FFFFFF;
+}
+
+.generalsection #footer .container .solidhr .general .alltitle .titlethire ul li i {
+  color: red;
+}
+
+.generalsection .hr hr {
+  margin-top: 40px;
+}
+
+.generalsection .endgeneral {
+  height: 50px;
+}
+
+.generalsection .endgeneral .people {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  background-color: #202020;
+}
+
+.generalsection .endgeneral .people .container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.generalsection .endgeneral .people .container .Copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.generalsection .endgeneral .people .container .Copyright .endsolit p {
+  color: #FFFFFF;
+}
+
+.generalsection .endgeneral .people .container .Copyright .endword {
+  width: 342px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.generalsection .endgeneral .people .container .Copyright .endword a {
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=style.css.map */
