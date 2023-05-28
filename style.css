@@ -74,12 +74,6 @@
   color: azure;
 }
 
-.generalsection header .general nav .menu ul li a:hover {
-  background: #FF3839;
-  padding: 5px;
-  border-radius: 5px;
-}
-
 .generalsection header .general nav .menu ul li .button1 {
   width: 128px;
   height: 44px;
@@ -114,7 +108,7 @@
   padding-bottom: 60px;
 }
 
-.generalsection .page1 .general .container .backphoto .photo1 {
+.generalsection .page1 .general .container .backphoto .word1 {
   font-family: 'Poppins' sans-serif;
   font-style: normal;
   font-size: 26px;
@@ -122,11 +116,11 @@
   text-transform: capitalize;
 }
 
-.generalsection .page1 .general .container .backphoto .photo1 span {
+.generalsection .page1 .general .container .backphoto .word1 span {
   color: red;
 }
 
-.generalsection .page1 .general .container .backphoto .photo2 {
+.generalsection .page1 .general .container .backphoto .word2 {
   font-family: 'Poppins' sans-serif;
   font-style: normal;
   font-size: 70px;
@@ -134,7 +128,11 @@
   margin-top: 30px;
 }
 
-.generalsection .page1 .general .container .backphoto .photo3 {
+.generalsection .page1 .general .container .backphoto .solidred hr {
+  background-color: red;
+}
+
+.generalsection .page1 .general .container .backphoto .word3 {
   font-family: 'Poppins';
   font-style: normal;
   font-size: 16px;
@@ -210,6 +208,13 @@
   display: flex;
 }
 
+.generalsection .page2 .containerthue .aboutword .firstword .solidabout {
+  width: 143px;
+  height: 2px;
+  background-color: #D8D8D8;
+  margin-top: 17px;
+}
+
 .generalsection .page2 .containerthue .aboutword .firstword p {
   font-family: 'Poppins' sans-serif;
   font-style: normal;
@@ -267,7 +272,20 @@
       justify-content: space-around;
 }
 
-.generalsection .page3 .container .people .words .word1 {
+.generalsection .page3 .container .people .words .titleword {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.generalsection .page3 .container .people .words .titleword .solid {
+  width: 143px;
+  height: 2px;
+  margin-top: 15px;
+  background-color: #D8D8D8;
+}
+
+.generalsection .page3 .container .people .words .titleword .word1 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-size: 26px;
@@ -275,7 +293,7 @@
   color: #FFFFFF;
 }
 
-.generalsection .page3 .container .people .words .word1 span {
+.generalsection .page3 .container .people .words .titleword .word1 span {
   color: red;
 }
 
@@ -440,12 +458,36 @@
   text-align: center;
 }
 
+.generalsection .page4 .container .general .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.generalsection .page4 .container .general .title .solid1 {
+  width: 143px;
+  height: 2px;
+  background-color: #202020;
+}
+
 .generalsection .page4 .container .general .title p {
   color: #696969;
   font-size: 20px;
 }
 
-.generalsection .page4 .container .general .title h1 {
+.generalsection .page4 .container .general .title .solid2 {
+  width: 143px;
+  height: 2px;
+  background-color: #202020;
+}
+
+.generalsection .page4 .container .general h1 {
   font-family: 'Poppins';
   font-style: normal;
   font-size: 48px;
@@ -453,7 +495,7 @@
   padding: 0 300px 0 300px;
 }
 
-.generalsection .page4 .container .general .title h1 span {
+.generalsection .page4 .container .general h1 span {
   color: #FF3839;
 }
 

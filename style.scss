@@ -19,7 +19,8 @@
 .generalsection {
 
     header {
-
+ 
+        
 
         .general {
 
@@ -76,13 +77,13 @@
 
                             }
 
-                            a:hover {
-                                background: #FF3839;
-                                padding: 5px;
-                                border-radius: 5px;
+                            // a:hover {
+                            //     background: #FF3839;
+                            //     padding: 5px;
+                            //     border-radius: 5px;
 
 
-                            }
+                            // }
 
                             .button1 {
                                 width: 128px;
@@ -125,7 +126,7 @@
                     padding: 7.812rem 0;
                     padding-bottom: 60px;
 
-                    .photo1 {
+                    .word1 {
                         font-family: 'Poppins' sans-serif;
                         font-style: normal;
                         font-size: 26px;
@@ -139,7 +140,7 @@
 
                     }
 
-                    .photo2 {
+                    .word2 {
                         font-family: 'Poppins' sans-serif;
                         font-style: normal;
                         font-size: 70px;
@@ -147,7 +148,16 @@
                         margin-top: 30px;
                     }
 
-                    .photo3 {
+                    .solidred {
+                        hr {
+
+                            background-color: red;
+                        }
+                    }
+
+
+
+                    .word3 {
                         font-family: 'Poppins';
                         font-style: normal;
                         font-size: 16px;
@@ -229,16 +239,20 @@
                 .firstword {
                     display: flex;
 
+                    .solidabout {
+
+                        width: 143px;
+                        height: 2px;
+                        background-color: #D8D8D8;
+                        margin-top: 17px;
+
+                    }
+
                     p {
                         font-family: 'Poppins' sans-serif;
                         font-style: normal;
                         font-size: 30px;
                         margin-bottom: 30px;
-
-
-
-
-
 
                     }
 
@@ -255,9 +269,6 @@
                         margin-top: 25px;
                         color: black;
                         margin-bottom: 40px;
-
-
-
 
                         span {
                             color: #e21a1a;
@@ -295,10 +306,6 @@
         padding-top: 100px;
         padding-bottom: 100px;
 
-
-
-
-
         .container {
             max-width: 1200px;
             margin: auto;
@@ -309,17 +316,29 @@
 
 
                 .words {
-                    .word1 {
-                        font-family: 'Poppins', sans-serif;
-                        font-style: normal;
-                        font-size: 26px;
-                        text-align: justify;
-                        color: #FFFFFF;
 
-                        span {
-                            color: red;
+                    .titleword {
+                        display: flex;
+                        
+                      .solid{
+                        width: 143px;
+                        height: 2px;
+                        margin-top: 15px;
+                        background-color: #D8D8D8;
+                      }
+
+                        .word1 {
+                            font-family: 'Poppins', sans-serif;
+                            font-style: normal;
+                            font-size: 26px;
+                            text-align: justify;
+                            color: #FFFFFF;
+
+                            span {
+                                color: red;
+                            }
+
                         }
-
                     }
 
                     .word2 {
@@ -501,23 +520,38 @@
                 text-align: center;
 
                 .title {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .solid1{
+                        width: 143px;
+                        height: 2px;
+                        background-color: #202020;
+                    }
+                    
                     p {
                         color: #696969;
                         font-size: 20px;
                     }
 
-                    h1 {
-                        font-family: 'Poppins';
-                        font-style: normal;
-                        font-size: 48px;
-                        color: black;
-                        padding: 0 300px 0 300px;
-
-                        span {
-                            color: #FF3839;
-                        }
-
+                     .solid2{
+                        width: 143px;
+                        height: 2px;
+                        background-color: #202020;
                     }
+
+                }
+                h1 {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-size: 48px;
+                    color: black;
+                    padding: 0 300px 0 300px;
+
+                    span {
+                        color: #FF3839;
+                    }
+
                 }
 
                 .navbar {
