@@ -1,0 +1,18 @@
+@media only screen and (max-width: 992px) {
+  .generalsection header .general .container {
+    max-width: 90%;
+  }
+  .generalsection header .general .container nav .logolar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 250px;
+  }
+  .generalsection header .general .container nav .menu ul {
+    display: none;
+  }
+  .generalsection .page2 .containertrue {
+    max-width: 90%;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,38 @@
+@media only screen and(max-width:992px) {
+    .generalsection{
+
+     header{
+        
+        .general{
+            .container{
+                max-width: 90%;
+                nav{
+
+                    .logolar{
+                        display: flex;
+                        padding-left: 250px;
+                     
+                    }
+                    .menu{
+                        ul{
+                            
+                          display: none;
+                        }
+                       
+                    }
+
+                   
+                }
+            }
+        }
+     }
+
+     .page2{
+        .containertrue{
+           max-width: 90%;
+            
+        }
+        
+     }
+    }
+}
